@@ -66,14 +66,14 @@ function HomePage() {
           <h2 className="xl:text-4xl sm:text-3xl text-2xl font-bold pt-20 pb-5">
             Work
           </h2>
-          <p className="text-xl">ありません。</p>
+          <p className="text-xl">.....</p>
         </div>
 
         <div>
           <h2 className="xl:text-4xl sm:text-3xl text-2xl font-bold pt-20 pb-5">
             Hobby
           </h2>
-          <p className="text-xl">ありません。</p>
+          <p className="text-xl">.....</p>
         </div>
       </div>
     </section>
