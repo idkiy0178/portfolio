@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
-import AboutPage from "./components/AboutPage";
 import WorkPage from "./components/WorkPage";
+import HobbyPage from "./components/HobbyPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={ <HomePage /> } />
-        <Route path="/about" element={ <AboutPage /> } />
         <Route path="/work" element={ <WorkPage /> } />
+        <Route path="/hobby" element={ <HobbyPage /> } />
       </Routes>
     </Router>
   );
