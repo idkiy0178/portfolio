@@ -1,7 +1,6 @@
 import ProfilePage from "./ProfilePage";
 import WorkPage from "./WorkPage";
 import HobbyPage from "./HobbyPage";
-import Modal from "./Modal";
 
 function HomePage() {
   return (
@@ -33,12 +32,9 @@ function HomePage() {
 
         <ProfilePage />
 
-        <Modal />
-
         <WorkPage />
 
         <HobbyPage />
-
       </div>
     </section>
   );

@@ -1,3 +1,7 @@
+import HackModal from "./modal/HackModal";
+import SignateModal from "./modal/SignateModal";
+import WebModal from "./modal/WebModal";
+
 const WorkPage = () => {
   return (
     <div>
@@ -9,7 +13,7 @@ const WorkPage = () => {
       {/* <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto"> */}
       <div class="max-w-[85rem] mx-auto">
         <div class="grid grid-cols-1 gap-10">
-          <a class="group rounded-xl overflow-hidden" href="#">
+          <a class="group rounded-xl overflow-hidden">
             <div class="sm:flex">
               <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
@@ -27,7 +31,10 @@ const WorkPage = () => {
                   Produce professional, reliable streams easily leveraging
                   Preline's innovative broadcast studio
                 </p>
-                <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
+
+                <WebModal />
+
+                {/* <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                   Read more
                   <svg
                     class="flex-shrink-0 size-4 translate-y-0.5 -translate-x-0.5"
@@ -43,12 +50,13 @@ const WorkPage = () => {
                   >
                     <path d="m9 18 6-6-6-6" />
                   </svg>
-                </p>
+                </p> */}
+                
               </div>
             </div>
           </a>
 
-          <a class="group rounded-xl overflow-hidden" href="#">
+          <a class="group rounded-xl overflow-hidden">
             <div class="sm:flex">
               <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
@@ -66,7 +74,10 @@ const WorkPage = () => {
                   「SIGNATE Student Cup
                   2023【モデリング部門】:中古車の価格予測チャレンジ」に参加
                 </p>
-                <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
+
+                <SignateModal />
+
+                {/* <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                   Read more
                   <svg
                     class="flex-shrink-0 size-4 translate-y-0.5 -translate-x-0.5"
@@ -82,12 +93,14 @@ const WorkPage = () => {
                   >
                     <path d="m9 18 6-6-6-6" />
                   </svg>
-                </p>
+                </p> */}
+
+
               </div>
             </div>
           </a>
 
-          <a class="group rounded-xl overflow-hidden" href="#">
+          <a class="group rounded-xl overflow-hidden">
             <div class="sm:flex">
               <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
@@ -104,7 +117,10 @@ const WorkPage = () => {
                 <p class="mt-3 text-gray-600 dark:text-neutral-400">
                   サポーターズ主催の1週間のハッカソンに出場予定
                 </p>
-                <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
+
+                <HackModal />
+
+                {/* <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                   Read more
                   <svg
                     class="flex-shrink-0 size-4 translate-y-0.5 -translate-x-0.5"
@@ -120,7 +136,9 @@ const WorkPage = () => {
                   >
                     <path d="m9 18 6-6-6-6" />
                   </svg>
-                </p>
+                </p> */}
+
+
               </div>
             </div>
           </a>
