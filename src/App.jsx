@@ -10,11 +10,12 @@ function App() {
     <Router>
       <Header />
 
-      <Routes>
+      <HomePage />
+      {/* <Routes>
         <Route path="/" element={ <HomePage /> } />
         <Route path="/work" element={ <WorkPage /> } />
         <Route path="/hobby" element={ <HobbyPage /> } />
-      </Routes>
+      </Routes> */}
     </Router>
   );
 }
