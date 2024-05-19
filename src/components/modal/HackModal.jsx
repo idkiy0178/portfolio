@@ -17,7 +17,7 @@ const HackModal = () => {
     <>
       <p
         onClick={toggleModal}
-        className="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium cursor-pointer"
+        className="mt-2 sm:mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium cursor-pointer"
       >
         Read more
         <svg

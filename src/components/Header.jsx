@@ -11,7 +11,7 @@ const Header = () => {
           <span className="text-xl ml-3">Keiya Ida</span>
         </a> */}
 
-        <nav className="md:ml-auto text-base">
+        {/* <nav className="md:ml-auto text-base">
           <ul className="flex">
             <li>
               <Link to="/" className="mr-5 hover:text-blue-400">
@@ -29,7 +29,8 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
+
         {/* <nav className="md:ml-auto text-base">
           <a href="#home" className="mr-5 hover:text-blue-400">
             Home
@@ -44,6 +45,7 @@ const Header = () => {
             Blog
           </a>
         </nav> */}
+
       </div>
     </header>
   );

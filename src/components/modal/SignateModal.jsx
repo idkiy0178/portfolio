@@ -17,7 +17,7 @@ const SignateModal = () => {
     <>
       <p
         onClick={toggleModal}
-        className="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium cursor-pointer"
+        className="mt-2 sm:mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 font-medium cursor-pointer"
       >
         Read more
         <svg
@@ -45,14 +45,17 @@ const SignateModal = () => {
           onClick={handleOutsideClick}
         >
           <div className="relative p-4 w-full max-w-2xl max-h-full">
-            <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
-              <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                  SignateModal
+            <div className="relative bg-white rounded-lg shadow">
+              <div className="flex items-center justify-between p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0 rounded-t">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
+                  SIGNATE Student Cup 2023
+                </h3>
+                <h3 className="pl-7 pr-2 text-lg sm:text-xl md:text-2xl text-gray-400">
+                  2023.07
                 </h3>
                 <button
                   type="button"
-                  className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                  className="text-gray-400 bg-transparent rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
                   onClick={toggleModal}
                 >
                   <svg
@@ -73,36 +76,21 @@ const SignateModal = () => {
                   <span className="sr-only">Close modal</span>
                 </button>
               </div>
-              <div className="p-4 md:p-5 space-y-4">
-                <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                  With less than a month to go before the European Union enacts
-                  new consumer privacy laws for its citizens, companies around
-                  the world are updating their terms of service agreements to
-                  comply.
-                </p>
-                <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                  The European Union’s General Data Protection Regulation
-                  (G.D.P.R.) goes into effect on May 25 and is meant to ensure a
-                  common set of data rights in the European Union. It requires
-                  organizations to notify users as soon as possible of high-risk
-                  data breaches that could personally affect them.
-                </p>
+
+              <div className="p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0">
+                <div className="relative rounded-xl overflow-hidden w-full h-44">
+                  <img
+                    className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+                    src="public/img/signate_student_cup.png"
+                    alt="Image Description"
+                  />
+                </div>
               </div>
-              <div className="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
-                <button
-                  onClick={toggleModal}
-                  type="button"
-                  className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  I accept
-                </button>
-                <button
-                  onClick={toggleModal}
-                  type="button"
-                  className="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-                >
-                  Decline
-                </button>
+
+              <div className="p-4 sm:p-6 md:p-10 space-y-4">
+                <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
+                  「SIGNATE Student Cup 2023【モデリング部門】:中古車の価格予測チャレンジ」に参加しました！
+                </p>
               </div>
             </div>
           </div>

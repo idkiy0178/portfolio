@@ -1,3 +1,6 @@
+// お試し用のモーダル
+// 通常使わない
+
 import React, { useState } from "react";
 
 const Modal = () => {
