@@ -54,7 +54,7 @@ const ProfilePage = () => {
           </tr>
           <tr className="flex flex-col sm:table-row">
             <td className="order-2 sm:order-1 pb-4 sm:pb-0 sm:pr-8 text-sm sm:text-lg md:text-xl">2020 - 2024</td>
-            <td className="order-1 sm:order-2 sm:py-2 text-base sm:text-lg md:text-xl">大阪府立大学 工学域 情報工学課程</td>
+            <td className="order-1 sm:order-2 sm:py-2 text-base sm:text-lg md:text-xl">大阪府立大学 工学域 電気電子系学類 情報工学課程</td>
           </tr>
           <tr className="flex flex-col sm:table-row">
             <td className="order-2 sm:order-1 sm:pr-8 text-sm sm:text-lg md:text-xl">2017 - 2020</td>
