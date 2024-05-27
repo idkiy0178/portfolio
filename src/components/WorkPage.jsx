@@ -18,7 +18,7 @@ const WorkPage = () => {
               <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
                   className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="public/img/keiya-portfolio.png"
+                  src="./img/keiya-portfolio.png"
                   alt="Image Description"
                 />
               </div>
@@ -60,7 +60,7 @@ const WorkPage = () => {
               <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
                   className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="public\img\signate_student_cup.png"
+                  src=".\img\signate_student_cup.png"
                   alt="Image Description"
                 />
               </div>
