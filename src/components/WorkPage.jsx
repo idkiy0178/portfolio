@@ -18,7 +18,7 @@ const WorkPage = () => {
               <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
                   className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                  src="public/img/keiya-portfolio.png"
                   alt="Image Description"
                 />
               </div>
