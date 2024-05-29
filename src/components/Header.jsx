@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="text-gray-700 border-b border-gray-200">
       <div className="md:max-w-[70%] max-w-[85%] flex mx-auto pt-5 pb-5 flex-col md:flex-row items-center">
-        <Link to="/" className="font-medium text-grey-900 mb-4 md:mb-0">
+        <span className="text-xl">IDKIY</span>
+
+        {/* <Link to="/" className="font-medium text-grey-900 mb-4 md:mb-0">
           <span className="text-xl">IDKIY</span>
-        </Link>
+        </Link> */}
+
         {/* <a href="#" className="font-medium text-grey-900 mb-4 md:mb-0">
           <span className="text-xl ml-3">Keiya Ida</span>
         </a> */}

@@ -1,6 +1,6 @@
-import HackModal from "./modal/HackModal";
-import SignateModal from "./modal/SignateModal";
 import WebModal from "./modal/WebModal";
+import SignateModal from "./modal/SignateModal";
+import HackModal from "./modal/HackModal";
 
 const WorkPage = () => {
   return (
@@ -102,8 +102,8 @@ const WorkPage = () => {
             <div className="sm:flex">
               <div className="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
                 <img
-                  className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                  className="size-full absolute top-0 start-0 object-cover rounded-xl"
+                  src="./img/coming-soon.png"
                   alt="Image Description"
                 />
               </div>

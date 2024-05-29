@@ -78,7 +78,7 @@ const WebModal = () => {
               </div>
 
               <div className="p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0">
-                <div className="relative rounded-xl overflow-hidden w-full h-44">
+                <div className="relative rounded-xl overflow-hidden w-full h-64">
                   <img
                     className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
                     src="./img/keiya-portfolio.png"

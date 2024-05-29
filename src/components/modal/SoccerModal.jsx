@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const HackModal = () => {
+const SoccerModal = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const toggleModal = () => {
@@ -48,10 +48,10 @@ const HackModal = () => {
             <div className="relative bg-white rounded-lg shadow">
               <div className="flex items-center justify-between p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0 rounded-t">
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
-                  サポーターズ ハッカソン出場予定
+                  サッカー歴15年
                 </h3>
                 <h3 className="pl-7 pr-2 text-lg sm:text-xl md:text-2xl text-gray-400">
-                  2024.06
+                  2009.06~
                 </h3>
                 <button
                   type="button"
@@ -78,10 +78,10 @@ const HackModal = () => {
               </div>
 
               <div className="p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0">
-                <div className="relative rounded-xl overflow-hidden w-full h-44">
+                <div className="relative rounded-xl overflow-hidden w-full h-64">
                   <img
                     className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="./img/coming-soon.png"
+                    src="./img/soccer-game.JPG"
                     alt="Image Description"
                   />
                 </div>
@@ -89,7 +89,7 @@ const HackModal = () => {
 
               <div className="p-4 sm:p-6 md:p-10 space-y-4">
                 <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
-                  チーム開発経験を積むために、研究室の同期とサポーターズ主催の1週間のハッカソンに出場します！制作物が完成し次第更新します！
+                  小学校から高校までは部活動で、大学ではサークルでサッカーを続けてきました。物心ついた時にはボールを蹴っていて、幼稚園の頃から休み時間にみんなでサッカーをしていました。その後、父の知り合いの影響で本格的にサッカーを習い始め、なんだかんだ楽しくて続けてきた結果、今では1番の趣味になりました。
                 </p>
               </div>
             </div>
@@ -100,4 +100,4 @@ const HackModal = () => {
   );
 };
 
-export default HackModal;
+export default SoccerModal;

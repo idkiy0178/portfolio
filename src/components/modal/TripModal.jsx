@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const HackModal = () => {
+const TripModal = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const toggleModal = () => {
@@ -48,10 +48,10 @@ const HackModal = () => {
             <div className="relative bg-white rounded-lg shadow">
               <div className="flex items-center justify-between p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0 rounded-t">
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
-                  サポーターズ ハッカソン出場予定
+                  旅行
                 </h3>
                 <h3 className="pl-7 pr-2 text-lg sm:text-xl md:text-2xl text-gray-400">
-                  2024.06
+                  2020.08~
                 </h3>
                 <button
                   type="button"
@@ -78,10 +78,10 @@ const HackModal = () => {
               </div>
 
               <div className="p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0">
-                <div className="relative rounded-xl overflow-hidden w-full h-44">
+                <div className="relative rounded-xl overflow-hidden w-full h-80">
                   <img
                     className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="./img/coming-soon.png"
+                    src="./img/corosseo.jpg"
                     alt="Image Description"
                   />
                 </div>
@@ -89,7 +89,7 @@ const HackModal = () => {
 
               <div className="p-4 sm:p-6 md:p-10 space-y-4">
                 <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
-                  チーム開発経験を積むために、研究室の同期とサポーターズ主催の1週間のハッカソンに出場します！制作物が完成し次第更新します！
+                  大学生になってから旅行の楽しさに目覚め、長期休暇では必ず旅行に行くようになりました。写真は学部の卒業旅行で約2週間ヨーロッパへ行った時のものです。すべての写真を見せたいのですが、フランスのモン・サン・ミシェルとイタリアのコロッセオが特に思い出の残っているため、こちらの2枚を選びました！
                 </p>
               </div>
             </div>
@@ -100,4 +100,4 @@ const HackModal = () => {
   );
 };
 
-export default HackModal;
+export default TripModal;
