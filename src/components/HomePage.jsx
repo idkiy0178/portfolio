@@ -25,15 +25,16 @@ function HomePage() {
 
         <div className="">
           <h3 className="text-base sm:text-lg md:text-xl">
-            大阪公立大学大学院 情報学研究科 
-            知能メディア処理研究室所属の修士１年生。現在は「会話中の分かったふり」について研究中。島根県松江市出身。
+            大阪公立大学大学院 情報学研究科 知能メディア処理研究室所属の修士１年生。
+            現在は「会話中に分かったふりをする人を見つけるシステムの構築」というテーマで研究中。<br />
+            島根県松江市出身。
           </h3>
         </div>
 
         <ProfilePage />
 
         <WorkPage />
-        
+
         <HobbyPage />
 
       </div>
