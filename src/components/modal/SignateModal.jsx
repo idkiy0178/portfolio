@@ -89,7 +89,7 @@ const SignateModal = () => {
 
               <div className="p-4 sm:p-6 md:p-10 space-y-4">
                 <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
-                  「SIGNATE Student Cup 2023【モデリング部門】:中古車の価格予測チャレンジ」に参加しました！
+                  「SIGNATE Student Cup 2023【モデリング部門】:中古車の価格予測チャレンジ」に参加しました！データ分析系のコンペは初めての挑戦で、先輩に教わりながら取り組みました。思うような結果は得られませんでしたが、データの前処理からモデルの実装まで一連のプロセスを学ぶことができました。
                 </p>
               </div>
             </div>
