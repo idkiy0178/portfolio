@@ -28,7 +28,7 @@ const HobbyPage = () => {
                   サッカー歴15年
                 </h3>
                 <p className="text-base sm:text-lg md:text-xl mt-3 text-gray-700">
-                  小学校2年生から現在まで、およそ15年間サッカーを続けています！
+                  小学校2年生から現在まで、およそ15年間サッカーを続けています。
                 </p>
 
                 <SoccerModal />
@@ -70,7 +70,7 @@ const HobbyPage = () => {
                   旅行
                 </h3>
                 <p className="text-base sm:text-lg md:text-xl mt-3 text-gray-700">
-                  旅行が好きで、長期休暇は必ず旅行に行きます！
+                  旅行が好きで、長期休暇は必ず旅行に行きます。
                 </p>
 
                 <TripModal />
@@ -113,7 +113,7 @@ const HobbyPage = () => {
                   フェス・ライブ
                 </h3>
                 <p className="text-base sm:text-lg md:text-xl mt-3 text-gray-600">
-                  フェスやライブの高揚感は何度行っても格別です...！
+                  フェスやライブの高揚感は何度行っても格別です...。
                 </p>
 
                 <FurugiyaModal />

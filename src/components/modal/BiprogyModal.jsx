@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const HackModal = () => {
+const BiprogyModal = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const toggleModal = () => {
@@ -48,7 +48,7 @@ const HackModal = () => {
             <div className="relative bg-white rounded-lg shadow">
               <div className="flex items-center justify-between p-4 pb-0 sm:p-6 sm:pb-0 md:p-10 md:pb-0 rounded-t">
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
-                  サポーターズのハッカソンに出場
+                  BIPROGYのハッカソンに出場
                 </h3>
                 <h3 className="pl-7 pr-2 text-lg sm:text-xl md:text-2xl text-gray-400">
                   2024.06
@@ -81,7 +81,7 @@ const HackModal = () => {
                 <div className="relative rounded-xl overflow-hidden w-full h-96">
                   <img
                     className="transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                    src="./img/lab-store-app-3.png"
+                    src="./img/biprogy.png"
                     alt="Image Description"
                   />
                 </div>
@@ -89,7 +89,7 @@ const HackModal = () => {
 
               <div className="p-4 sm:p-6 md:p-10 space-y-4">
                 <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">
-                  研究室の同期2人とサポーターズ主催の1週間のハッカソンに出場しました。私の研究室には、係の人が水やお菓子を買ってきて、それを研究室内で販売するという仕組みがあるのですが、その在庫の管理や請求金額の計算を楽にするWebアプリを作りました。
+                  BIPROGY主催の2日間のハッカソンに出場しました。ランキング上位のニュースの中で、ネガティブな内容のニュースをフィルタリングし、明るいニュースだけを表示させるWebアプリを作成しました。
                 </p>
               </div>
             </div>
@@ -100,4 +100,4 @@ const HackModal = () => {
   );
 };
 
-export default HackModal;
+export default BiprogyModal;

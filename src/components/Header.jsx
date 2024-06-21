@@ -6,10 +6,6 @@ const Header = () => {
       <div className="md:max-w-[70%] max-w-[85%] flex mx-auto pt-5 pb-5 flex-col md:flex-row items-center">
         <span className="text-xl">IDKIY</span>
 
-        {/* <Link to="/" className="font-medium text-grey-900 mb-4 md:mb-0">
-          <span className="text-xl">IDKIY</span>
-        </Link> */}
-
         {/* <a href="#" className="font-medium text-grey-900 mb-4 md:mb-0">
           <span className="text-xl ml-3">Keiya Ida</span>
         </a> */}
@@ -48,7 +44,6 @@ const Header = () => {
             Blog
           </a>
         </nav> */}
-
       </div>
     </header>
   );
